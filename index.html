@@ -67,11 +67,11 @@ document.writeln("</pre>");
   <p>
     <script language="JavaScript">
       function jumlah() {
-        var bil1 = parseFloat(document.Penghitung.bilangan1.value);
+        let bil1 = parseFloat(document.Penghitung.bilangan1.value);
         if (isNaN(bil1)) bil1 = 0.0;
-        var bil2 = parseFloat(document.Penghitung.bilangan2.value);
+        let bil2 = parseFloat(document.Penghitung.bilangan2.value);
         if (isNaN(bil2)) bil2 = 0.0;
-        var hasil = bil1 + bil2;
+        let hasil = bil1 + bil2;
         console.log("Hasil Penjumlahan = " + hasil);
       }
     </script>
